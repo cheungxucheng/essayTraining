@@ -2,7 +2,7 @@ from datasets import load_dataset
 from transformers import GPT2Tokenizer
 
 # Load your custom dataset
-dataset = load_dataset("csv", data_files={"train": "your_essays.csv"})
+dataset = load_dataset("csv", data_files={"train": "essays.csv"})
 
 # Load GPT-2 tokenizer
 tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
